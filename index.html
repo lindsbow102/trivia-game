@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trivia Game</title>
+
+    <!-- Link in CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Start of the game -->
+    <div id="start_container">
+        <!-- Static Game Logo -->
+        <div class="start-logo">
+            <h1>Arizona Trivia</h1>
+
+            <button id="start_button">Start</button>
+        </div>
+    </div>
+
+
+    <!-- During Gameplay Container -->
+    <div id="mid_game_container">
+        <!-- Static Game Logo -->
+        <div class="mid-div">
+            <h1 class="logo">Arizona Trivia</h1>
+
+            <!-- Game Timer -->
+            <h1 id="timer_line">Time Remaining:
+                <span id="timer_number">60 Seconds</span>
+            </h1>
+
+            <!-- Game Questions -->
+
+            <h2>1. The Grand Canyon is how long (in miles)?</h2>
+            <!-- 227 -->
+            <input type="radio" name="q1" value="1">227
+            <input type="radio" name="q1" value="0">150
+            <input type="radio" name="q1" value="0">90
+            <input type="radio" name="q1" value="0">400
+
+
+            <h2>2. Arizona is roughly the size of what country?</h2>
+            <!-- Italy -->
+            <input type="radio" name="q2" value="0">Spain
+            <input type="radio" name="q2" value="0">Haiti
+            <input type="radio" name="q2" value="1">Italy
+            <input type="radio" name="q2" value="0">South Korea
+
+
+            <h2>3. What is the official state flower of Arizona?</h2>
+            <!-- The Saguaro Cactus Blossom -->
+            <input type="radio" name="q3" value="1">The Saguaro Cactus Blossom
+            <input type="radio" name="q3" value="0">The Desert Marigold
+            <input type="radio" name="q3" value="0">Jumping Cholla
+            <input type="radio" name="q3" value="0">Yellow Paloverde
+
+
+            <h2>4. As a percentage, how much does the sun shine in Arizona?</h2>
+            <!-- 85% -->
+            <input type="radio" name="q4" value="0">75%
+            <input type="radio" name="q4" value="0">95%
+            <input type="radio" name="q4" value="0">100%
+            <input type="radio" name="q4" value="1">85%
+
+
+            <h2>5. Which famous structure has been reconstructed in Lake Havasu?</h2>
+            <!-- London Bridge  -->
+            <input type="radio" name="q5" value="0">Eiffel Tower
+            <input type="radio" name="q5" value="1">London Bridge
+            <input type="radio" name="q5" value="0">Burj Khalifa
+            <input type="radio" name="q5" value="0">Gateway Arch
+            <input type="radio" name="q5" value="0">The Louvre
+
+            <h2>6. By law, how old must one be to purchase spray paint in Tempe?</h2>
+            <!-- 18 years old -->
+            <input type="radio" name="q6" value="0">16 years old
+            <input type="radio" name="q6" value="1">18 years old
+            <input type="radio" name="q6" value="0">21 years old
+            <input type="radio" name="q6" value="0">12 years old
+
+
+            <h2>7. What is the official state tree of Arizona?</h2>
+            <!-- Palo Verde -->
+            <input type="radio" name="q7" value="0">Desert Ironwood
+            <input type="radio" name="q7" value="0">Mesquite
+            <input type="radio" name="q7" value="1">Palo Verde
+            <input type="radio" name="q7" value="0">Parkinsonia
+
+            <h2>8. Arizona leads the nation in the production of which mineral?</h2>
+            <!-- Copper -->
+            <input type="radio" name="q8" value="0">Manganese
+            <input type="radio" name="q8" value="0">Gold
+            <input type="radio" name="q8" value="0">Chromite
+            <input type="radio" name="q8" value="1">Copper
+
+            <h2>9. What is the official gemstone of Arizona?</h2>
+            <!-- Turquoise -->
+            <input type="radio" name="q9" value="1">Turquoise
+            <input type="radio" name="q9" value="0">Topaz
+            <input type="radio" name="q9" value="0">Emerald
+            <input type="radio" name="q9" value="0">Lapis Lazuli
+
+            <h2>10. What are the official state colors of Arizona?</h2>
+            <!-- Blue & Gold -->
+            <input type="radio" name="q10" value="1">Blue and Gold
+            <input type="radio" name="q10" value="0">Red and Yellow
+            <input type="radio" name="q10" value="0">Blue and White
+            <input type="radio" name="q10" value="0">Black and Purple
+
+
+            <br>
+
+
+            <button id="done_button">Done!</button>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- End of the game -->
+    <div id="end_container">
+        <!-- Static Game Logo -->
+        <br>
+        <h1 class="logo">Arizona Trivia</h1>
+
+        <h1 id="done">All Done!</h1>
+        <br>
+
+        <h1>Correct Answers:
+            <span id="correct_answers">0</span>
+        </h1>
+        <h1>Incorrect Answers:
+            <span id="wrong_answers">0</span>
+        </h1>
+        <h1>Unanswered:
+            <span id="unanswered">0</span>
+        </h1>
+    </div>
+
+
+
+
+    <!-- Link in jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+    <!-- Link in JavaScript -->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

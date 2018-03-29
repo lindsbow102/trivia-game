@@ -1,0 +1,49 @@
+#start_container {
+    background-image: url("../images/startbackground.png");
+    background-size: cover;
+    height: 700px;
+    width: cover;
+    color: white;
+    padding-top: 100px;
+
+}
+
+.start-logo {
+    height: 400px;
+    width: 450px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 55px;
+    background-color: gray;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+
+#start_button {
+    height: 50px;
+    width: 80px;
+}
+
+#mid_game_container {
+    background-image: url("../images/midbackground.png");
+    background-size: cover;
+    color: yellow;
+}
+
+.mid-div {
+    background-color: gray;
+    opacity: 0.75;
+}
+
+#done_button {
+    height: 40px;
+    width: 70px;
+}
+
+#end_container {
+    background-image: url("../images/endbackground.png");
+    background-size: cover;
+    height: 700px;
+    color: white;
+    text-align: center;
+}
